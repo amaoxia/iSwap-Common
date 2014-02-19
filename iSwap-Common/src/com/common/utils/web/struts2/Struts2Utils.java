@@ -145,6 +145,16 @@ public class Struts2Utils {
             throw new IllegalArgumentException(e);
         }
     }
+    
+    public static void renderJson(String type, final Object data, final String... headers) {
+        HttpServletResponse response = initResponseHeader(type, headers);
+        try {
+        	//System.out.println(mapper.writeValueAsString(data));
+            mapper.writeValue(response.getWriter(), data);
+        } catch (IOException e) {
+            throw new IllegalArgumentException(e);
+        }
+    }
 
     /**
      * 直接输出支持跨域Mashup的JSONP.
