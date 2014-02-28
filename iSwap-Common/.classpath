@@ -50,7 +50,7 @@
 	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/cxf-tools-common-2.3.3.jar"/>
 	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/dhbcore.jar"/>
 	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/dozer-5.3.2.jar"/>
+	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/dozer-5.3.2.jar" sourcepath="C:/Users/admin/.m2/repository/net/sf/dozer/dozer/5.3.2/dozer-5.3.2-sources.jar"/>
 	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/drools-api-5.1.1.jar"/>
 	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/drools-core-5.1.1.jar"/>
 	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/dwr-2.0.3.jar"/>
@@ -148,7 +148,7 @@
 	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/XmlSchema-1.4.7.jar"/>
 	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/xpp3_min-1.1.4c.jar"/>
 	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/xstream-1.4.2.jar"/>
-	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/xwork-core-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/projects/iswaps/iswap7/doc/lib/xwork-core-2.2.1.jar" sourcepath="C:/Users/admin/.m2/repository/org/apache/struts/xwork/xwork-core/2.2.1/xwork-core-2.2.1-sources.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_5.0">
 		<attributes>

@@ -139,7 +139,7 @@ public class Struts2Utils {
     public static void renderJson(final Object data, final String... headers) {
         HttpServletResponse response = initResponseHeader(ServletUtils.JSON_TYPE, headers);
         try {
-        	//System.out.println(mapper.writeValueAsString(data));
+        	System.out.println(mapper.writeValueAsString(data));
             mapper.writeValue(response.getWriter(), data);
         } catch (IOException e) {
             throw new IllegalArgumentException(e);
